@@ -50,98 +50,133 @@
                          <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar" data-mobile-scroll-hide="true">
                 <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-700 g-font-size-13 g-pt-20 g-pt-0--lg g-mb-20 g-mb-0--lg ml-auto g-mr-20">
                     <li class="nav-item g-mr-3--lg g-mb-5 g-mb-0--lg active">
-                        <a href="#"></a>
+                        <a href="#home" class="nav-link">Início <span class="sr-only">(current)</span>
+                        </a>
                     </li>
-                    <li>
-                        <a href="#"></a>
+                    <li class="nav-item g-mx-3--lg g-mb-5 g-mb-0--lg">
+                        <a href="#about" class="nav-link">Sobre
+
+                        </a>
                     </li>
-                    <li>
-                        <a href="#"></a>
+                    <li class="nav-item g-mx-3--lg g-mb-5 g-mb-0--lg">
+                        <a href="#ourCouser" class="nav-link">Cursos</a>
                     </li>
-                    <li>
-                        <a href="#"></a>
+                    <li class="nav-item g-ml-3--lg g-mb-5 g-mb-0--lg">
+                        <a href="#celeiro" class="nav-link">Celeiro de profissões</a>
                     </li>
-                    <li>
-                        <a href="#"></a>
+                    <li class="nav-item g-ml-3--lg g-mb-5 g-mb-0--lg">
+                        <a href="#events" class="nav-link">Eventos
+
+                        </a>
                     </li>
-                    <li>
-                        <a href="#"></a>
+                    <li  class="nav-item g-ml-3--lg g-mb-5 g-mb-0--lg">
+                        <a href="#contatos" class="nav-link">Contato</a>
                     </li>
-                    <li>
-                        <a href="#"></a>
+                    <li class="nav-item g-ml-3--lg active">
+                        <a href="#" target="_blank" class="nav-link">PORTAL></a>
                     </li>
                 </ul>
-                <ul>
-                    <li>
-                        <a href="">
-                            <i></i>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item g-mr-10">
+                        <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-default g-color-white g-bg-instagram-custom g-rounded-50x g-transition-0_2 g-transition--ease-in" href="https://www.instagram.com/escolaupmais/" target="_blank">
+                            <i class="fa fa-instagram"></i>
                         </a>
                 
                     </li>
-                    <li>
-                        <a href="">
-                            <i></i>
+                    <li class="list-inline-item g-mr-10">
+                        <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-default g-color-white g-bg-whatsapp g-rounded-50x g-transition-0_2 g-transition--ease-in" href="https://api.whatsapp.com/send?phone=553133679216" target="_blank">
+                            <i class="fa fa-whatsapp"></i>
                         </a>
                 
                     </li>
-                    <li>
-                        <a href="">
-                            <i></i>
+                    <li class="list-inline-item">
+                        <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-default g-color-white g-bg-facebook g-rounded-50x g-transition-0_2 g-transition--ease-in" href="https://www.facebook.com/escolaupmais/" target="_blank">
+                            <i class="fa fa-facebook"></i>
                         </a>
                 
                     </li>
                 </ul>
+                
                 </div>
-                <button  class="">
-                    <span class="">
-                        <span class="">
-                            <span class=""></span>
+                <!-- Fim da navegação -->
+                <!-- Botão de alternância responsivo -->
+                <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-15 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                    <span  class="hamburger hamburger--slider">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner">
+
+                            </span>
                         </span>
                     </span>
                 </button>
+                <!-- Botão de alternância responsivo final -->
                </div> 
             </nav>
         </div>
        </header>
+       <!-- Fim do cabeçalho v1 -->
+       <!-- Conteúdo da seção -->
 
+<section id="home"> <!--  /*box-shadow*/-->
+    <div class="container-fluid g-px-30">
+        <div class="js-carousel g-pos-rel g-mx-minus-15" data-infinite="true" data-autoplay="true" data-speed="3000" data-slides-show="3" data-responsive='[{
+            "breakpoint": 1200,
+            "settings": {
+              "slidesToShow": 3
+            }
+          }, {
+            "breakpoint": 992,
+            "settings": {
+              "slidesToShow": 2
+            }
+          }, {
+            "breakpoint": 576,
+            "settings": {
+              "slidesToShow": 1
+            }
+          }]'>
 
-<section>
-    <div class="recipiente-fluido">
-        <div class="js-carrossel">
+            <div class="js-slide g-px-15">
+                <article class="g-pos-rel">
+                    <figure class="u-bg-overlay g-bg-white">
+                        <img class="img-fluid w-100" src="imagens/banner.jpg" alt="banner">
+                    </figure>
+                </article>
+                <!-- End article -->
+            </div>
 
+            <!-- article -->
+        <div class="js-slide g-px-15">
             <article class="g-pos-rel">
                 <figure class="u-bg-overlay g-bg-white">
-                    <img src="imagens/banner.jpg" alt="banner">
-
+                    <img class="img-fluid w-100" src="imagens/veterinario.jpg" alt="veterinario">
                 </figure>
-
             </article>
-
+            <!-- End article -->
         </div>
-        <article>
-            <figure>
-                <img src="imagens/veterinario.jpg" alt="veterinario">
-            </figure>
-        </article>
-    </div>
-    <div>
-        <video preload="auto" controls="controls" autoplay="autoplay" src="videos/video formatura.mp4" type="video/MP4">Video Formatura
+        
+        <div class="js-slide g-px-15" data-slide-type='video'>
+        <video preload="auto" controls="controls" autoplay="autoplay" class="img-fluid w-100"
+        src="videos/video formatura.mp4" type="video/MP4">Video Formatura
 
         </video>
-                <div>
-                    <article>
-                        <figure>
-                            <img src="imagens/de um up.jpg" alt="de um Up">
+                <!-- article -->
+                <div class="js-slide g-px-15">
+                    <article class="g-pos-rel">
+                        <figure class="u-bg-overlay g-bg-white">
+                            <img class="img-fluid w-100" src="imagens/de um up.jpg" alt="de um Up">
                         </figure>
                     </article>
+                    <!-- End article -->
                 </div>
                 <div class="js-slide g-px-15">
                     
                     <article class="g-pos-rel">
-                      <figure class="">
+                      <figure class="u-bg-overlay g-bg-white">
                         <img class="img-fluid w-100" src="imagens/aulas praticas.jpeg">
                     </figure>
                   </article>
+                   <!-- article -->
     </div>
     <div class="js-slide g-px-15">
                     
@@ -150,8 +185,9 @@
             <img class="img-fluid w-100" src="imagens/estrutura.jpeg">
         </figure>
       </article>
+      <!-- End article -->
 </div>
-
+     <!-- article -->
 <div class="js-slide g-px-15">
                     
     <article class="g-pos-rel">
@@ -173,7 +209,7 @@
             <div class="js-slide g-px-15">
                                 
                 <article class="g-pos-rel">
-                <figure class="">
+                <figure class="img-fluid w-100">
                     <img class="img-fluid w-100" src="imagens/garantia de aprendizado.jpeg">
                 </figure>
             </article>
@@ -182,7 +218,7 @@
             <div class="js-slide g-px-15">
                     
                 <article class="g-pos-rel">
-                  <figure class="">
+                  <figure class="img-fluid w-100">
                     <img class="img-fluid w-100" src="imagens/experiencias incriveis.jpeg">
                 </figure>
               </article>
@@ -191,7 +227,7 @@
             <div class="js-slide g-px-15">
                     
                 <article class="g-pos-rel">
-                  <figure class="">
+                  <figure class="img-fluid w-100">
                     <img class="img-fluid w-100" src="imagens/petshop.jpeg">
                 </figure>
               </article>
@@ -200,7 +236,7 @@
             <div class="js-slide g-px-15">
                     
                 <article class="g-pos-rel">
-                  <figure class="">
+                  <figure class="img-fluid w-100">
                     <img class="img-fluid w-100" src="imagens/parcerias.jpeg">
                 </figure>
               </article>
@@ -209,12 +245,17 @@
             <div class="js-slide g-px-15">
                     
                 <article class="g-pos-rel">
-                  <figure class="">
+                  <figure class="img-fluid w-100">
                     <img class="img-fluid w-100" src="imagens/esteja preparado para oportunidades.jpeg">
                 </figure>
               </article>
+              <!-- End article -->
             </div>
+        </div>
+    </div>
+
 </section>
+<!-- End Section Content -->
 <section class="g-bg-gray-lineargradient g-color-black g-pa-50">
     <div class="container">
       <div class="row justify-content-md-around">
@@ -252,14 +293,14 @@
           Combinamos a educação e o mundo do trabalho num mesmo lugar, derrubando as barreiras entre a teoria e a prática, entre o ensino e 
           o mercado profissional. Somos a Escola profissionalizante que o aluno aprende na prática.
           </p>
-           <!-- HTML5 Example -->
+           <!-- Exemplo de HTML5 -->
            <div class="embed-responsive embed-responsive-16by9 g-mb-60">
             <video preload="auto" controls="controls" poster="assets/media-temp/video-bg/video-bg-poster.jpg">
               <source src="videos/Auxiliar veterinario.mp4" type="video/mp4;">
                 <source src="videos/auxiliar 2.mp4" type="video/mp4;">
             </video>
           </div>
-          <!-- End HTML5 Example -->
+          <!-- final Exemplo de HTML5 -->
 
         </div>
 
@@ -593,6 +634,90 @@ Não é necessário qualquer tipo de conhecimento prévio ou pré-requisitos, ba
         </div>
       </section>
     </main>
+    <!-- JS Global Compulsory -->
+    <script src="javascripit-index/jquery.js"></script>
+  <script src="javascripit-index/migrate.js"></script>
+  <script src="javascripit-index/popper.js"></script>
+  <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="assets/vendor/appear.js"></script>
+  <script src="assets/vendor/fancybox/jquery.fancybox.js"></script>
+
+  <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+  <script src="assets/vendor/gmaps/gmaps.min.js"></script>
+  <script  src="assets/vendor/custombox/custombox.min.js"></script>
+  <!-- JS Unify -->
+  <script src="assets/js/hs.core.js"></script>
+  <script src="assets/js/components/hs.header.js"></script>
+  <script src="assets/js/helpers/hs.hamburgers.js"></script>
+  <script src="assets/js/components/hs.scroll-nav.js"></script>
+  <script src="assets/js/components/hs.tabs.js"></script>
+  <script src="assets/js/components/hs.popup.js"></script>
+  <script src="assets/js/components/hs.chart-pie.js"></script>
+  <script src="assets/js/components/hs.carousel.js"></script>
+  <script src="assets/js/components/gmap/hs.map.js"></script>
+  <script src="assets/js/components/hs.go-to.js"></script>
+  <script  src="assets/js/components/hs.modal-window.js"></script>
+  <script  src="assets/js/components/hs.onscroll-animation.js"></script>
+  <!-- JS Customization -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    // initialization of google map
+    function initMap() {
+      $.HSCore.components.HSGMap.init('.js-g-map');
+    }
+
+    $(document).on('ready', function() {
+      // initialization of carousel
+      $.HSCore.components.HSCarousel.init('.js-carousel');
+
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#js-header'));
+      $.HSCore.helpers.HSHamburgers.init('.hamburger');
+     // initialization of scroll animation
+     $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
+      // initialization of tabs
+      $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+      // initialization of go to section
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of popups
+      $.HSCore.components.HSPopup.init('.js-fancybox-media', {
+        helpers: {
+          media: {},
+          overlay: {
+            css: {
+              'background': 'rgba(255, 255, 255, .8)'
+            }
+          }
+        }
+      });
+
+    // initialization of popups
+    $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+    });
+
+    $(window).on('load', function() {
+      // initialization of HSScrollNav
+      $.HSCore.components.HSScrollNav.init($('#js-scroll-nav'), {
+        Duração: 700
+      });
+    });
+
+    $(window).on('resize', function() {
+      setTimeout(function() {
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+      }, 200);
+    });
+  </script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP0j_0UqblRTB4vYEV0rrG2lPy0_zWBzY&callback=initMap" async></script>
     
 </body>
 </html>
