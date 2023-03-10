@@ -1,0 +1,66 @@
+/* Add here all your css styles (customizations) */
+
+.g-color-whatsapp--hover:hover {
+    background-color: #34af23 !important;
+    color: #fff;
+}
+
+.g-color-custom{
+    color: #D8902B;
+}
+
+.u-btn-custom{
+    font-weight: 700;
+    border: 1px solid #D8902B;
+    background: linear-gradient(90deg, rgba(117, 75, 23, 1) 0%, rgba(216, 144, 43, 1) 35%, rgba(246, 181, 68, 1) 100%);
+}
+.u-btn-custom:hover{
+    font-weight: 700;
+    border: 1px solid #e6992e;
+    background: linear-gradient(90deg, rgba(246, 181, 68, 1) 0%, rgba(216, 144, 43, 1) 35%, rgba(117, 75, 23, 1) 100%);
+}
+
+.g-color-custom-gradient{
+    background: linear-gradient(90deg, rgba(117, 75, 23, 1) 0%, rgba(216, 144, 43, 1) 35%, rgba(246, 181, 68, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.g-bgcolor-custom{
+    background: linear-gradient(90deg, rgba(117, 75, 23, 1) 0%, rgba(216, 144, 43, 1) 35%, rgba(246, 181, 68, 1) 100%);
+}
+input[type="checkbox"]:checked+.g-bgcolor-custom--checked,
+input[type="radio"]:checked+.g-bgcolor-custom--checked,
+input[type="checkbox"]:checked+* .g-bgcolor-custom--checked,
+input[type="radio"]:checked+* .g-bgcolor-custom--checked {
+    background: linear-gradient(90deg, rgba(117, 75, 23, 1) 0%, rgba(216, 144, 43, 1) 35%, rgba(246, 181, 68, 1) 100%) !important;
+}
+input[type="checkbox"]:checked+.g-bg-orange--checked,
+input[type="radio"]:checked+.g-bg-orange--checked,
+input[type="checkbox"]:checked+* .g-bg-orange--checked,
+input[type="radio"]:checked+* .g-bg-orange--checked {
+    background: #e57d20;
+}
+
+.g-color-whatsapp {
+    color: #34af23;
+}
+
+.g-color-instagram--hover:hover {
+    background-color: #3f729b !important;
+    color: #fff;
+}
+
+.g-color-facebook--hover:hover {
+    background-color: #3b5998 !important;
+    color: #fff;
+}
+
+.g-color-youtube--hover:hover {
+    background-color: #c4302b !important;
+    color: #fff;
+}
+
+.g-bg-instagram-custom {
+    background: rgb(195, 42, 163);
+    background: linear-gradient(90deg, rgba(195, 42, 163, 1) 0%, rgba(244, 111, 48, 1) 35%, rgba(255, 220, 125, 1) 100%);
+}
