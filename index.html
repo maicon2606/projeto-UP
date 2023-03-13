@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
   <!-- Title -->
-  <title>Portal do aluno UP+ Coronel Fabriciano</title>
+  <title>UP+ Coronel Fabriciano</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -18,315 +17,751 @@
   <meta name="language" content="Portuguese">
   <meta name="generator" content="N/A">
   <!-- Favicon -->
-  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="shortcut icon" href="favicon (1).png">
 
-  <!-- Favicon -->
   <!-- Google Fonts -->
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
-  <!-- CSS Global Compulsory -->
-  <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/vendor/icon-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../assets/vendor/icon-line-pro/style.css">
-  <link rel="stylesheet" href="../assets/vendor/icon-hs/style.css">
-  <link rel="stylesheet" href="../assets/vendor/animate.css">
-  <link rel="stylesheet" href="../assets/vendor/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="../assets/vendor/hs-megamenu/src/hs.megamenu.css">
-  <link rel="stylesheet" href="../assets/vendor/hamburgers/hamburgers.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800|Ek+Mukta:400,600,700">
 
-  <!-- CSS Unify -->
-  <link rel="stylesheet" href="../assets/css/unify-core.css">
-  <link rel="stylesheet" href="../assets/css/unify-components.css">
-  <link rel="stylesheet" href="../assets/css/unify-globals.css">
+  <!-- CSS Global Compulsory -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/icon-line-css/simple-line-icons.css">
+  <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
+  <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+  <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+  <link rel="stylesheet" href="assets/vendor/animate.css">
+  <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+  <link rel="stylesheet" href="assets/vendor/slick-carousel-slick/slick.css">
+  <link  rel="stylesheet" href="assets/vendor/custombox/custombox.min.css">
+
+  <!-- CSS Template -->
+  <link rel="stylesheet" href="assets/css/styles.op-courses.css">
 
   <!-- CSS Customization -->
-  <link rel="stylesheet" href="../assets/css/custom.css">
-
-  <style>
-    .slick-list, slick-track, .slick-track {
-        height: 100%;
-      }
-  </style>
+  <link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body>
-  <main>
-
-    <!-- Header -->
-    <header id="js-header" class="u-header u-header--static">
-      <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
-        <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
-          <div class="container">
-            <!-- Responsive Toggle Button -->
-            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
-              <span class="hamburger hamburger--slider">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-              </span>
-              </span>
-            </button>
-            <!-- End Responsive Toggle Button -->
+<body class="g-color-black">
+  <main class="g-pt-115">
+    <!-- Header v1 -->
+    <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance g-z-index-9999" data-header-fix-moment="100">
+      <div class="u-header__section u-shadow-v27 g-bg-white g-transition-0_3 g-py-17" data-header-fix-moment-exclude="g-py-17" data-header-fix-moment-classes="g-py-12">
+        <nav class="navbar navbar-expand-lg g-py-0">
+          <div class="container-fluid g-pos-rel">
             <!-- Logo -->
-            <a href="index.php" class="navbar-brand d-flex">
-              <img src="../assets/img/logo/logoup+.png" alt="Logo UP+" class="img-fluid g-width-50">
+            <a href="index.php" class="js-go-to navbar-brand py-0 u-header__logo" data-type="static">
+              <img class="u-header__logo-img u-header__logo-img--main g-width-80 g-width-80--md" src="assets/img/logo/logoup+.png" alt="Logo">
             </a>
             <!-- End Logo -->
+
             <!-- Navigation -->
-            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
-              <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
-                <!-- Intro -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                  <a href="logout.php" class="nav-link g-py-7 g-px-0">Sair</a>
+            <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar" data-mobile-scroll-hide="true">
+              <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-700 g-font-size-13 g-pt-20 g-pt-0--lg g-mb-20 g-mb-0--lg ml-auto g-mr-20">
+                <li class="nav-item g-mr-3--lg g-mb-5 g-mb-0--lg active">
+                  <a href="#home" class="nav-link">Início <span class="sr-only">(current)</span>
+                  </a>
                 </li>
-                <!-- End Intro -->
-
+                <li class="nav-item g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a href="#about" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item g-mx-3--lg g-mb-5 g-mb-0--lg">
+                  <a href="#ourCourses" class="nav-link">Cursos</a>
+                </li>
+                <li class="nav-item g-ml-3--lg g-mb-5 g-mb-0--lg">
+                  <a href="#celeiro" class="nav-link">Celeiro de profissões</a>
+                </li>
+                                <li class="nav-item g-ml-3--lg g-mb-5 g-mb-0--lg">
+                  <a href="#events" class="nav-link">Eventos</a>
+                </li>
+                <li class="nav-item g-ml-3--lg g-mb-5 g-mb-0--lg">
+                  <a href="#contact" class="nav-link">Contato</a>
+                </li>
+                <li class="nav-item g-ml-3--lg active">
+                  <a href="/aluno/login.php" target="_blank" class="nav-link">PORTAL</a>
+                </li>
               </ul>
-            </div>
-            <!-- End Navigation -->
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- End Header -->
-<body>
-  <main>
 
-
-  
-    <!-- Login -->
-    <section class="overflow-hidden">
-      <div class="row no-gutters">
-        <div class="container-fluid g-px-30 col-sm-6">
-          <div class="js-carousel g-pos-rel g-mx-minus-15 g-pt-50" data-infinite="true" data-autoplay="true" data-speed="3000" data-slides-show="1" data-responsive='[{
-                  "breakpoint": 1200,
-                  "settings": {
-                    "slidesToShow": 1
-                  }
-                }, {
-                  "breakpoint": 992,
-                  "settings": {
-                    "slidesToShow": 1
-                  }
-                }, {
-                  "breakpoint": 576,
-                  "settings": {
-                    "slidesToShow": 1
-                  }
-                }]'>
-
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/3ec970aa4781eef6f92da32593d93f59.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/96ec2425fbc8b7664b9385d7a34d29d6.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/32e029e555fdb72eaf3116103badcff4.mp4">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/725a60f2e2118d874c8842b48768c7aa.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/d84dabcb0778551c8ca2af67f17acc0b.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/5d0609d1423cf8b19d1e82877ed40b72.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/0c7633f7c519c0bb2778a3675149731f.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/88621b77f36d919c22fc37b3e2a6972a.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/d6b7552b5129447e42d4ce313b32919b.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/bd51d6cc4baeeff3c05fdeedd18eed3d.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/91ee46ccfd37b0c98b2c768ea9ab257a.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/afeb06da9e00e87e21b79fdc294842cd.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/05d00ab3ceabb0423cdac5f1091e0fe1.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/7ddc3fe788ee9aa1d8a5ef0cc8231175.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                      </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="g-pa-50 g-mx-70--xl">
-            <!-- Form -->
-            <form class="g-py-15">
-              <h2 class="h3 g-color-black mb-4">Entrar no portal do aluno</h2>
-              <div class="form-group g-pos-rel mb-0">
-                <div class="mb-4">
-                  <div class="input-group g-brd-primary--focus">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text g-width-45 g-brd-right-none g-brd-gray-light-v4 g-color-primary"><i class="icon-finance-067 u-line-icon-pro g-pos-rel g-top-2"></i></span>
-                    </div>
-                    <input class="form-control g-color-black g-brd-left-none g-bg-white g-brd-gray-light-v4 g-pl-0 g-pr-15 g-py-15" id="username_login" type="text" placeholder="Usuário">
-                  </div>
-                  <div id="notfound">
-                    <small class="form-control-feedback d-block g-bg-red g-color-white g-font-size-12 g-px-14 g-py-3 mt-0">Aluno não encontrado</small>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group g-pos-rel mb-0">
-                <div class="mb-4">
-                  <div class="input-group g-brd-primary--focus">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text g-width-45 g-brd-right-none g-brd-gray-light-v4 g-color-primary"><i class="icon-media-094 u-line-icon-pro g-pos-rel g-top-2"></i></span>
-                    </div>
-                    <input class="form-control g-color-black g-brd-left-none g-bg-white g-brd-gray-light-v4 g-pl-0 g-pr-15 g-py-15" id="senha_login" type="password" placeholder="Senha">
-                  </div>
-                  <div id="wrongpassword">
-                    <small class="form-control-feedback d-block g-bg-red g-color-white g-font-size-12 g-px-14 g-py-3 mt-0">Senha incorreta</small>
-                  </div>
-                </div>
-              </div>
-
-              <!-- <div class="row justify-content-between mb-4">
-                <div class="col align-self-center">
-                  <label class="form-check-inline u-check g-pl-25 mb-0">
-                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
-                    <div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
-                      <i class="fa g-rounded-2" data-check-icon="&#xf00c"></i>
-                    </div>
-                    Keep signed in
-                  </label>
-                </div>
-                <div class="col align-self-center text-right">
-                  <a class="g-color-gray-dark-v4 g-color-primary--hover" href="#">Forgot password?</a>
-                </div>
-              </div> -->
-
-              <div class="g-mb-50">
-                <button class="btn btn-md btn-block u-btn-primary rounded text-uppercase g-py-13" id="btnLogin" type="button">Entrar</button>
-              </div>
-
-
-              <p class="g-font-size-13 text-center mb-0">Não tem conta ou não se lembra? <a class="g-font-weight-600" href="https://api.whatsapp.com/send?phone=553138426784">Entre em contato</a>
-              </p>
-            </form>
-            <!-- End Form -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Login -->
-
-    <!-- Footer -->
-<footer>
-      <div class="g-bg-gray-dark-v2 g-color-white g-py-20">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <a class="d-inline-block g-mb-20 g-width-360 g-mt-57" href="#">
-                <img class="img-fluid" src="../assets/img/logo/logoup+.png" alt="Logo UP+">
-              </a>
-
-              <ul class="list-inline g-mb-50 pl-4">
+              <ul class="list-inline mb-0">
                 <li class="list-inline-item g-mr-10">
-                  <a class="u-icon-v2 g-rounded-50x g-color-instagram g-color-instagram--hover g-mr-15 g-mb-20" href="https://www.instagram.com/escolaupmais/" target="_blank">
+                  <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-default g-color-white g-bg-instagram-custom g-rounded-50x g-transition-0_2 g-transition--ease-in" href="https://www.instagram.com/escolaupmais/" target="_blank">
                     <i class="fa fa-instagram"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mr-10">
-                  <a class="u-icon-v2 g-rounded-50x g-color-whatsapp g-color-whatsapp--hover g-mr-15 g-mb-20" href="https://api.whatsapp.com/send?phone=553133679216" target="_blank">
+                  <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-default g-color-white g-bg-whatsapp g-rounded-50x g-transition-0_2 g-transition--ease-in" href="https://api.whatsapp.com/send?phone=553133679216" target="_blank">
+                    <i class="fa fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-default g-color-white g-bg-facebook g-rounded-50x g-transition-0_2 g-transition--ease-in" href="https://www.facebook.com/escolaupmais/" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- End Navigation -->
+
+            <!-- Responsive Toggle Button -->
+            <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-15 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+              <span class="hamburger hamburger--slider">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header v1 -->
+
+    <!-- Section Content -->
+    <section id="home">
+      <div class="container-fluid g-px-30">
+        <div class="js-carousel g-pos-rel g-mx-minus-15" data-infinite="true" data-autoplay="true" data-speed="3000" data-slides-show="3" data-responsive='[{
+                 "breakpoint": 1200,
+                 "settings": {
+                   "slidesToShow": 3
+                 }
+               }, {
+                 "breakpoint": 992,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }, {
+                 "breakpoint": 576,
+                 "settings": {
+                   "slidesToShow": 1
+                 }
+               }]'>
+
+                                    <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/3ec970aa4781eef6f92da32593d93f59.jpg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/96ec2425fbc8b7664b9385d7a34d29d6.jpg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                   
+              <div class="js-slide g-px-15" data-slide-type='video'>
+                
+                <video preload="auto" controls="controls" autoplay="autoplay" class="img-fluid w-100">
+                  <source src="admin-arquivos/banners/32e029e555fdb72eaf3116103badcff4.mp4" type="video/mp4">
+                </video>
+              </div>
+
+                                                  <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/725a60f2e2118d874c8842b48768c7aa.jpg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/d84dabcb0778551c8ca2af67f17acc0b.jpg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/5d0609d1423cf8b19d1e82877ed40b72.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/0c7633f7c519c0bb2778a3675149731f.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/88621b77f36d919c22fc37b3e2a6972a.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/d6b7552b5129447e42d4ce313b32919b.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/bd51d6cc4baeeff3c05fdeedd18eed3d.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/91ee46ccfd37b0c98b2c768ea9ab257a.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/afeb06da9e00e87e21b79fdc294842cd.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/05d00ab3ceabb0423cdac5f1091e0fe1.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                                                <div class="js-slide g-px-15">
+                <!-- article -->
+                <article class="g-pos-rel">
+                  <figure class="u-bg-overlay g-bg-white">
+                    <img class="img-fluid w-100" src="admin-arquivos/banners/7ddc3fe788ee9aa1d8a5ef0cc8231175.jpeg">
+                </figure>
+              </article>
+              <!-- End article -->
+            </div>
+                              </div>
+      </div>
+    </section>
+    <!-- End Section Content -->
+    <section class="g-bg-gray-lineargradient g-color-black g-pa-50">
+      <div class="container">
+        <div class="row justify-content-md-around">
+          <div class="col-md-8 align-self-md-center">
+            <h2 class="text-uppercase">Fale com um de nossos 
+              <span class="g-color-primary">consultores</span>!
+            </h2>
+          </div>
+
+          <div class="col-md-4 align-self-md-center text-md-center">
+            <a class="btn u-btn-primary g-py-12 g-px-30"  href="https://api.whatsapp.com/send?phone=553133679216" target="_blank"><i class="fa fa-whatsapp"></i> Chamar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Content -->
+    <section id="about" class="g-py-100 g-color-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 g-pl-50--lg">
+            <div class="text-uppercase u-heading-v6-2 g-mb-15 g-ml-minus-55 g-ml-minus-90--md">
+              <h4 class="u-heading-v6__subtitle g-font-weight-700 g-font-size-12 g-color-black g-ml-2 g-mb-10">Sobre nós</h4>
+              <h2 class="u-heading-v6__title g-font-weight-700 g-color-primary g-font-size-26 g-brd-orange mb-0">Conheça a UP+</h2>
+            </div>
+            <p class="g-color-black g-mb-40 text-justify">
+              A ESCOLA UP+ foi criada em outubro de 2021 e tem a MISSÃO de transformar os sonhos dos nossos alunos em realidade, por meio da educação, 
+              formação profissional e orientação ao mercado de trabalho. Utilizando uma metodologia totalmente prática, ou seja, os estudantes 
+              são levados a pensar e a raciocinar a todo o momento. Desta forma , são estimulados a “aprender a aprender”, o que possibilita a 
+              realização frequente de novas descobertas.
+            </p>
+            <p class="g-color-black g-mb-40 text-justify">
+            Temos como PROPÓSITO  levar educação de qualidade, que gera emprego real aos nossos estudantes e assim, transformar nosso país.
+            </p>
+            <p class="g-color-black g-mb-40 text-justify">
+            Combinamos a educação e o mundo do trabalho num mesmo lugar, derrubando as barreiras entre a teoria e a prática, entre o ensino e 
+            o mercado profissional. Somos a Escola profissionalizante que o aluno aprende na prática.
+            </p>
+             <!-- HTML5 Example -->
+             <div class="embed-responsive embed-responsive-16by9 g-mb-60">
+              <video preload="auto" controls="controls" poster="assets/media-temp/video-bg/video-bg-poster.jpg">
+                <source src="assets/video/2.mp4" type="video/mp4;">
+                  <source src="assets/video/2.mp4" type="video/mp4;">
+              </video>
+            </div>
+            <!-- End HTML5 Example -->
+
+          </div>
+
+          <div class="col-md-6">
+            <div class="row g-mb-30 g-mb-0--md">
+              <!-- <a class="js-fancybox-media col-md-12 g-pos-rel" href="javascript:;" data-src="https://www.youtube.com/embed/X8-HmnzqwW4" data-animate-in="fadeIn" data-animate-out="fadeOut" data-speed="1000"> -->
+                <img class="img-fluid" style="border-radius: 10px" src="assets/img/about.jpeg" alt="Imagem Pablo e Elisângela">
+                <!-- <i class="fa fa-play fa-3x g-absolute-centered g-color-black"></i> -->
+              <!-- </a> -->
+              <div class="col-md-5 d-flex align-self-center">
+                <!-- <h4 class="h6 text-uppercase g-font-weight-700 mb-0">Veja o nosso vídeo de apresentação</h4> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Section Content -->
+
+    <!-- Section Content -->
+    <section id="ourCourses" class="g-pb-100 g-pt-11">
+      <div class="container g-max-width-750 g-mb-80">
+        <div class="text-uppercase text-center u-heading-v2-5--top g-brd-red">
+          <h2 class="u-heading-v2__title g-font-weight-700 g-font-size-26 g-color-black g-mb-10">NOSSOS CURSOS</h2>
+        </div>
+      </div>
+
+      <div class="container-fluid g-px-30">
+        <!-- Products Block -->
+        <div class="js-carousel g-pos-rel g-mx-minus-15" data-infinite="true" data-autoplay="true" data-speed="1200" data-slides-show="4"  data-responsive='[{
+                 "breakpoint": 1200,
+                 "settings": {
+                   "slidesToShow": 4
+                 }
+               }, {
+                 "breakpoint": 992,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }, {
+                 "breakpoint": 576,
+                 "settings": {
+                   "slidesToShow": 1
+                 }
+               }]'>
+                      <div class="js-slide g-px-15--md">
+              <!-- article -->
+              <article class="info-v5-3 g-parent g-pos-rel">
+                <!-- article Image -->
+                <div class="g-bg-cover g-bg-black-opacity-0_4--after">
+                  <img class="w-100" src="admin-arquivos/cursos/e198a6da29e32bf20c816daaacf8cf2f.jpg" alt="Curso UP+">
+                </div>
+                <!-- End article Image -->
+                <!-- article Content -->
+                <div class="text-uppercase info-v5-3__info g-pos-rel g-bg-red-opacity-0_9--parent-hover g-pa-30 g-mt-minus-70 g-transition-0_5">
+                  <!-- article Header -->
+                  <header class="g-pos-rel g-color-white g-mb-40">
+
+                    <h3 class="info-v5-3__info-title g-font-weight-700 g-font-size-16 g-color-white g-transition-0_5">
+                      <a class="g-color-white g-color-white--hover" href="#">Informática gerencial</a>
+                    </h3>
+                  </header>
+                  <!-- End article Header -->
+
+                  <p class="g-text-transform-none g-color-black g-font-size-default g-color-white--parent-hover g-mb-25">
+                    O curso de  INFORMÁTICA GERENCIAL  foi desenvolvido pensando nas reais necessidades de um aluno seja iniciante ou para aprimorar seus conhecimentos. Neste curso, o aluno aprende o essencial da informática de uma forma prática e produtiva, através de atividades práticas diárias e completas. Dividido em módulos, o curso apresenta recursos básicos, intermediários e avançados, porém, de forma didática, e com o objetivo final de capacitá-lo a utilizar um sistema operacional, construir documentos e planilhas inteligentes, navegar na internet, enviar e receber e-mail, criar apresentações, digitação, entre outras habilidades necessárias para o mercado de trabalho.                  </p>
+                  <!-- article Info -->
+                  <ul class="list-unstyled info-v5-3__info-list g-font-weight-700 g-font-size-12 g-color-black mb-0">
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <i class="g-font-size-18 g-color-black g-color-white--parent-hover g-mr-10 fa fa-calendar"></i>
+                      Duração: 12 Meses
+                    </li>
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <a 
+                        href="https://wa.me/553133679216?text=Tenho%20interesse/dúvida%20no%20curso%20de%20Informática gerencial" 
+                        target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm g-bg-whatsapp g-rounded-50 g-mr-10 g-mb-15 g-color-white"
+                        >
+                        <i class="fa fa-whatsapp"></i> Quero saber mais!
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End article Info -->
+                </div>
+                <!-- End article Content -->
+              </article>
+              <!-- End article -->
+            </div>
+                      <div class="js-slide g-px-15--md">
+              <!-- article -->
+              <article class="info-v5-3 g-parent g-pos-rel">
+                <!-- article Image -->
+                <div class="g-bg-cover g-bg-black-opacity-0_4--after">
+                  <img class="w-100" src="admin-arquivos/cursos/a92e09e44e633468332de391b5588612.jpg" alt="Curso UP+">
+                </div>
+                <!-- End article Image -->
+                <!-- article Content -->
+                <div class="text-uppercase info-v5-3__info g-pos-rel g-bg-red-opacity-0_9--parent-hover g-pa-30 g-mt-minus-70 g-transition-0_5">
+                  <!-- article Header -->
+                  <header class="g-pos-rel g-color-white g-mb-40">
+
+                    <h3 class="info-v5-3__info-title g-font-weight-700 g-font-size-16 g-color-white g-transition-0_5">
+                      <a class="g-color-white g-color-white--hover" href="#">Inglês</a>
+                    </h3>
+                  </header>
+                  <!-- End article Header -->
+
+                  <p class="g-text-transform-none g-color-black g-font-size-default g-color-white--parent-hover g-mb-25">
+                    O objetivo do curso de Inglês Convencional é formar o aluno com qualificação para falar, entender, escrever e ler o idioma inglês, exercícios de escrita, conversação, compreensão do idioma e ferramentas didáticas diferenciadas.
+O curso é ministrado em turmas, em salas de aula, onde o professor utiliza da metodologia do ensino ativo e dinâmico para ministrar suas aulas.                  </p>
+                  <!-- article Info -->
+                  <ul class="list-unstyled info-v5-3__info-list g-font-weight-700 g-font-size-12 g-color-black mb-0">
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <i class="g-font-size-18 g-color-black g-color-white--parent-hover g-mr-10 fa fa-calendar"></i>
+                      Duração: 18 Meses
+                    </li>
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <a 
+                        href="https://wa.me/553133679216?text=Tenho%20interesse/dúvida%20no%20curso%20de%20Inglês" 
+                        target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm g-bg-whatsapp g-rounded-50 g-mr-10 g-mb-15 g-color-white"
+                        >
+                        <i class="fa fa-whatsapp"></i> Quero saber mais!
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End article Info -->
+                </div>
+                <!-- End article Content -->
+              </article>
+              <!-- End article -->
+            </div>
+                      <div class="js-slide g-px-15--md">
+              <!-- article -->
+              <article class="info-v5-3 g-parent g-pos-rel">
+                <!-- article Image -->
+                <div class="g-bg-cover g-bg-black-opacity-0_4--after">
+                  <img class="w-100" src="admin-arquivos/cursos/4d14643145cbc84896a19511a505b51a.jpg" alt="Curso UP+">
+                </div>
+                <!-- End article Image -->
+                <!-- article Content -->
+                <div class="text-uppercase info-v5-3__info g-pos-rel g-bg-red-opacity-0_9--parent-hover g-pa-30 g-mt-minus-70 g-transition-0_5">
+                  <!-- article Header -->
+                  <header class="g-pos-rel g-color-white g-mb-40">
+
+                    <h3 class="info-v5-3__info-title g-font-weight-700 g-font-size-16 g-color-white g-transition-0_5">
+                      <a class="g-color-white g-color-white--hover" href="#">Rotinas Administrativas</a>
+                    </h3>
+                  </header>
+                  <!-- End article Header -->
+
+                  <p class="g-text-transform-none g-color-black g-font-size-default g-color-white--parent-hover g-mb-25">
+                    O  curso prepara o aluno para atender as exigências profissionais que todo escritório, comércio ou empresa exige em diversas rotinas administrativas. O objetivo deste curso é qualificar um profissional para prestar assistência na área administrativa de uma empresa, auxiliando o administrador em suas atividades rotineiras e no controle de gestão financeira, administração, organização de arquivos, gerência de informações, revisão de documentos entre outras atividades. Um profissional capaz de atender prontamente com habilidade e competência qualquer setor administrativo, contábil ou de departamento pessoal.                  </p>
+                  <!-- article Info -->
+                  <ul class="list-unstyled info-v5-3__info-list g-font-weight-700 g-font-size-12 g-color-black mb-0">
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <i class="g-font-size-18 g-color-black g-color-white--parent-hover g-mr-10 fa fa-calendar"></i>
+                      Duração: 14 Meses
+                    </li>
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <a 
+                        href="https://wa.me/553133679216?text=Tenho%20interesse/dúvida%20no%20curso%20de%20Rotinas Administrativas" 
+                        target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm g-bg-whatsapp g-rounded-50 g-mr-10 g-mb-15 g-color-white"
+                        >
+                        <i class="fa fa-whatsapp"></i> Quero saber mais!
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End article Info -->
+                </div>
+                <!-- End article Content -->
+              </article>
+              <!-- End article -->
+            </div>
+                      <div class="js-slide g-px-15--md">
+              <!-- article -->
+              <article class="info-v5-3 g-parent g-pos-rel">
+                <!-- article Image -->
+                <div class="g-bg-cover g-bg-black-opacity-0_4--after">
+                  <img class="w-100" src="admin-arquivos/cursos/b233c13cc0b6f9c28600082ee485aca1.jpg" alt="Curso UP+">
+                </div>
+                <!-- End article Image -->
+                <!-- article Content -->
+                <div class="text-uppercase info-v5-3__info g-pos-rel g-bg-red-opacity-0_9--parent-hover g-pa-30 g-mt-minus-70 g-transition-0_5">
+                  <!-- article Header -->
+                  <header class="g-pos-rel g-color-white g-mb-40">
+
+                    <h3 class="info-v5-3__info-title g-font-weight-700 g-font-size-16 g-color-white g-transition-0_5">
+                      <a class="g-color-white g-color-white--hover" href="#">Auxiliar Veterinário</a>
+                    </h3>
+                  </header>
+                  <!-- End article Header -->
+
+                  <p class="g-text-transform-none g-color-black g-font-size-default g-color-white--parent-hover g-mb-25">
+                    Ministrado por médico Veterinário, o curso de Auxiliar Veterinário é voltado para área clínica que prepara o aluno para trabalhar auxiliando o Médico Veterinário. Com aulas teóricas e práticas, 80% do curso são animais de pequeno porte (Cão e Gato) e 20% animais de grande porte (Equino e Bovino) incluso Banho e Tosa. Neste curso o aluno aprenderá diversas técnicas e práticas que o deixará preparado para auxiliar o médico veterinário nas mais diversas atividades do dia a dia da profissão, tendo como principais atividades o auxílio em cirurgias e procedimentos, além de apoio nas técnicas aplicadas nos animais. O aluno será capacitado para trabalhar em hospitais veterinários, laboratórios, Pet Shop ou clínicas veterinárias, além é claro de poder empreender e abrir seu próprio negócio na área. <br>
+*CURSO PRESENCIAL<br>
+Não é necessário qualquer tipo de conhecimento prévio ou pré-requisitos, basta se matricular e começar a estudar.                  </p>
+                  <!-- article Info -->
+                  <ul class="list-unstyled info-v5-3__info-list g-font-weight-700 g-font-size-12 g-color-black mb-0">
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <i class="g-font-size-18 g-color-black g-color-white--parent-hover g-mr-10 fa fa-calendar"></i>
+                      Duração: 12 Meses
+                    </li>
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <a 
+                        href="https://wa.me/553133679216?text=Tenho%20interesse/dúvida%20no%20curso%20de%20Auxiliar Veterinário" 
+                        target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm g-bg-whatsapp g-rounded-50 g-mr-10 g-mb-15 g-color-white"
+                        >
+                        <i class="fa fa-whatsapp"></i> Quero saber mais!
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End article Info -->
+                </div>
+                <!-- End article Content -->
+              </article>
+              <!-- End article -->
+            </div>
+                      <div class="js-slide g-px-15--md">
+              <!-- article -->
+              <article class="info-v5-3 g-parent g-pos-rel">
+                <!-- article Image -->
+                <div class="g-bg-cover g-bg-black-opacity-0_4--after">
+                  <img class="w-100" src="admin-arquivos/cursos/441d3464c10f94690894e5926323e00a.jpg" alt="Curso UP+">
+                </div>
+                <!-- End article Image -->
+                <!-- article Content -->
+                <div class="text-uppercase info-v5-3__info g-pos-rel g-bg-red-opacity-0_9--parent-hover g-pa-30 g-mt-minus-70 g-transition-0_5">
+                  <!-- article Header -->
+                  <header class="g-pos-rel g-color-white g-mb-40">
+
+                    <h3 class="info-v5-3__info-title g-font-weight-700 g-font-size-16 g-color-white g-transition-0_5">
+                      <a class="g-color-white g-color-white--hover" href="#">Atendente de Farmácia</a>
+                    </h3>
+                  </header>
+                  <!-- End article Header -->
+
+                  <p class="g-text-transform-none g-color-black g-font-size-default g-color-white--parent-hover g-mb-25">
+                    Um profissional da área, o curso de Atendente de Farmácia foi desenvolvido baseando-se nas necessidades do mercado de trabalho. Com o objetivo de maximizar ainda mais seu aprendizado o curso possui aulas teóricas e práticas, no qual proporcionará ao aluno  conhecimentos sobre as técnicas usadas no ambiente de trabalho e métodos de atendimento ao cliente. Aprenderá também conceitos importantes sobre a dispensação de medicamentos e os serviços farmacêuticos, visando sempre a máxima eficiência no atendimento, em prol da saúde da sociedade.<br>
+*CURSO PRESENCIAL<br>
+Não é necessário qualquer tipo de conhecimento prévio ou pré-requisitos, basta se matricular e começar a estudar.                  </p>
+                  <!-- article Info -->
+                  <ul class="list-unstyled info-v5-3__info-list g-font-weight-700 g-font-size-12 g-color-black mb-0">
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <i class="g-font-size-18 g-color-black g-color-white--parent-hover g-mr-10 fa fa-calendar"></i>
+                      Duração: 8 Meses
+                    </li>
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <a 
+                        href="https://wa.me/553133679216?text=Tenho%20interesse/dúvida%20no%20curso%20de%20Atendente de Farmácia" 
+                        target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm g-bg-whatsapp g-rounded-50 g-mr-10 g-mb-15 g-color-white"
+                        >
+                        <i class="fa fa-whatsapp"></i> Quero saber mais!
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End article Info -->
+                </div>
+                <!-- End article Content -->
+              </article>
+              <!-- End article -->
+            </div>
+                      <div class="js-slide g-px-15--md">
+              <!-- article -->
+              <article class="info-v5-3 g-parent g-pos-rel">
+                <!-- article Image -->
+                <div class="g-bg-cover g-bg-black-opacity-0_4--after">
+                  <img class="w-100" src="admin-arquivos/cursos/036ca3632c6da94a966062a530aa6f57.jpg" alt="Curso UP+">
+                </div>
+                <!-- End article Image -->
+                <!-- article Content -->
+                <div class="text-uppercase info-v5-3__info g-pos-rel g-bg-red-opacity-0_9--parent-hover g-pa-30 g-mt-minus-70 g-transition-0_5">
+                  <!-- article Header -->
+                  <header class="g-pos-rel g-color-white g-mb-40">
+
+                    <h3 class="info-v5-3__info-title g-font-weight-700 g-font-size-16 g-color-white g-transition-0_5">
+                      <a class="g-color-white g-color-white--hover" href="#">Pet Shop - Banho e Tosa</a>
+                    </h3>
+                  </header>
+                  <!-- End article Header -->
+
+                  <p class="g-text-transform-none g-color-black g-font-size-default g-color-white--parent-hover g-mb-25">
+                    Torne-se especialista em Banho e Tosa e comece a se destacar em sua cidade o quanto antes.
+Curso Prático, totalmente didático, não importa se você não possui conhecimento na área ou para você que já atua na área de Banho e Tosa e deseja evoluir e aprender novas técnicas. Expanda sua experiência e aprenda os cuidados que deve ter com cães e gatos, como dar banho e tosar da forma correta, escovação, limpeza dos ouvidos, Mercado de trabalho e muito mais através de uma experiência projetada por profissionais.  
+Atuação em: Pet shop e clínica veterinária além são claro de poder empreender e abrir seu próprio negócio na área.
+<br>
+*CURSO PRESENCIAL<br>
+Não é necessário qualquer tipo de conhecimento prévio ou pré-requisitos, basta se matricular e começar a estudar.                  </p>
+                  <!-- article Info -->
+                  <ul class="list-unstyled info-v5-3__info-list g-font-weight-700 g-font-size-12 g-color-black mb-0">
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <i class="g-font-size-18 g-color-black g-color-white--parent-hover g-mr-10 fa fa-calendar"></i>
+                      Duração: 4 Meses
+                    </li>
+                    <li class="g-color-white--parent-hover g-mb-20">
+                      <a 
+                        href="https://wa.me/553133679216?text=Tenho%20interesse/dúvida%20no%20curso%20de%20Pet Shop - Banho e Tosa" 
+                        target="_blank" rel="noopener noreferrer"
+                        class="btn btn-sm g-bg-whatsapp g-rounded-50 g-mr-10 g-mb-15 g-color-white"
+                        >
+                        <i class="fa fa-whatsapp"></i> Quero saber mais!
+                      </a>
+                    </li>
+                  </ul>
+                  <!-- End article Info -->
+                </div>
+                <!-- End article Content -->
+              </article>
+              <!-- End article -->
+            </div>
+          
+        </div>
+        <!-- End Products Block -->
+      </div>
+    </section>
+    <!-- End Section Content -->
+    <!-- End Section Content -->
+    <section id="celeiro" class="g-bg-gray-lineargradient g-color-black g-pa-50">
+      <div class="container text-center g-py-50--md g-py-20">
+        <h2 class="h1 text-uppercase g-font-weight-300 g-color-primary">CELEREIROS DE PROFISSÕES</h2>
+        <p class="lead g-px-50--md g-mb-20">A inserção de nossos alunos no mundo do trabalho é um dos nossos objetivos principais. Nesse sentido,  CELEIRO DE PROFISSÕES é um programa destinado aos alunos dos cursos Profissionalizantes, com foco no desenvolvimento humano e profissional dos estudantes.</p>
+        <p class="lead g-px-50--md g-mb-20">Além de diversos eventos internos que aproximam nossos alunos do mercado trabalho, o CELEIRO atua auxiliando o aluno na preparação do currículo profissional, na orientação para processos seletivos e no desenvolvimento de habilidades e competências indispensáveis para um bom profissional nos dias atuais.</p>
+        <p class="lead g-px-50--md g-mb-20">O CELEIRO DE PROFISSÕES atua também no contato permanente com empresas e agentes de integração, no intuito de estabelecer parcerias e captar vagas de empregos e estágios aos alunos da UP+.</p>
+        <p class="lead g-px-50--md g-mb-20">As empresas que contratam os alunos da UP+ contribuem efetivamente no processo de desenvolvimento de novos profissionais. As parcerias acontecem por meio da divulgação de oportunidade de trabalho ou pela realização de convênios com a própria escola.</p>
+        <a class="btn u-btn-primary g-py-12 g-px-30"  href="assets-unify/matricula1.html" target="_blank"><i class="fa fa-arrow-up"></i> Matricular</a>
+      </div>
+    </section>
+    <!-- Section Content -->
+        <section id="events" class="g-py-100">
+    </section>
+    <!-- Section Content -->
+    <section id="contact" class="g-py-100">
+      <div class="row mx-0">
+        <div class="container col-sm-12">
+          <div class="g-max-width-600 g-mb-30 g-mb-65--md mx-auto">
+            <ul class="nav justify-content-around text-uppercase u-nav-v5-2 u-nav-orange g-font-weight-700 g-font-size-18" role="tablist" data-target="contactTabs" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-xl btn-block text-uppercase u-btn-red g-font-weight-700 g-font-size-13 g-color-orange--hover g-bg-transparent--hover g-brd-3 rounded-0 g-py-15 g-px-25">
+              <li class="nav-item">
+                <a class="nav-link px-0 g-pb-10 active g-color-black" data-toggle="tab" href="#writeUs" role="tab">Escreva-nos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-0 g-pb-10 g-color-black" data-toggle="tab" href="#contacts" role="tab">Contate-nos</a>
+              </li>
+            </ul>
+          </div>
+
+          <div id="contactTabs" class="tab-content g-pt-10 mx-auto">
+            <div id="writeUs" class="tab-pane fade in active show" role="tabpanel">
+              <div class="g-max-width-700 mx-auto">
+                <form method="POST" action="php/mail.php">
+                  <div class="row">
+                    <div class="from-group g-mb-30 col-sm-6">
+                      <input id="inputGroup1_1" class="form-control g-font-size-default g-color-black g-bg-transparent g-bg-transparent--focus g-brd-transparent g-brd-gray-light-v4-bottom g-brd-gray-light-v4--focus rounded-0 g-px-12 g-py-6" type="text" name="name" placeholder="Nome">
+                    </div>
+                    <div class="from-group g-mb-30 col-sm-6">
+                      <input id="inputGroup1_4" class="form-control g-font-size-default g-color-black g-bg-transparent g-bg-transparent--focus g-brd-transparent g-brd-gray-light-v4-bottom g-brd-gray-light-v4--focus rounded-0 g-px-12 g-py-6" type="text" name="celular" placeholder="Celular">
+                    </div>
+                    <div class="from-group g-mb-30 col-sm-6">
+                      <input id="inputGroup1_5" class="form-control g-font-size-default g-color-black g-bg-transparent g-bg-transparent--focus g-brd-transparent g-brd-gray-light-v4-bottom g-brd-gray-light-v4--focus rounded-0 g-px-12 g-py-6" type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <div class="from-group g-mb-30 col-sm-6">
+                      <input id="inputGroup1_2" class="form-control g-font-size-default g-color-black g-bg-transparent g-bg-transparent--focus g-brd-transparent g-brd-gray-light-v4-bottom g-brd-gray-light-v4--focus rounded-0 g-px-12 g-py-6" type="text" name="subject" placeholder="Assunto">
+                    </div>
+                  </div>
+                  <div class="from-group g-mb-30">
+                    <textarea id="inputGroup1_3" class="form-control g-resize-none g-font-size-default g-color-black g-bg-transparent g-bg-transparent--focus g-brd-transparent g-brd-gray-light-v4-bottom g-brd-gray-light-v4--focus rounded-0 g-px-12 g-py-6" rows="4" name="message" placeholder="Mensagem"></textarea>
+                  </div>
+
+                  <div class="row justify-content-center">
+                    <div class="col-md-7">
+                      <button class="btn u-btn-orange btn-lg btn-block text-uppercase g-font-weight-700 g-font-size-default g-color-orange--hover g-bg-transparent--hover g-brd-3 rounded-0 g-pa-20 mb-0" type="submit" role="button"><i class="fa fa-paper-plane"></i> Enviar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="tab-pane fade in" id="contacts" role="tabpanel">
+              <div class="g-max-width-770 mx-auto">
+                <address class="text-center g-color-black g-brd-around g-brd-2 g-brd-gray-light-v3">
+                  <div class="row">
+                    <div class="col-md-4 g-py-60">
+                      <i class="icon-directions icon d-inline-block g-font-size-22 g-color-orange g-mb-10"></i>
+                      <h3 class="text-uppercase g-font-weight-700 g-font-size-16 mb-0 g-color-black">Endereço</h3>
+                      <p class="g-font-size-default mb-0">R. Pedro Nolasco, 66 - Centro</p>
+                      <p class="g-font-size-default mb-0">Coronel Fabriciano - MG</p>
+                    </div>
+
+                    <div class="col-md-4 g-py-60">
+                      <i class="icon-call-in icon d-inline-block g-font-size-22 g-color-orange g-mb-10"></i>
+                      <h3 class="text-uppercase g-font-weight-700 g-font-size-16 mb-0 g-color-black">Telefone</h3>
+                      <p class="g-font-size-default mb-0">
+                        <a class="g-font-size-default g-color-black" href="tel:3133679216">(31) 3367-9216</a>
+                      </p>
+                      <!-- <p class="g-font-size-default mb-0">
+                        <a class="g-font-size-default g-color-black" href="tel:31986676784">(31) 98667-6784</a>
+                      </p> -->
+                    </div>
+
+                    <div class="col-md-4 g-py-60">
+                      <i class="icon-envelope-open icon d-inline-block g-font-size-22 g-color-orange g-mb-10"></i>
+                      <h3 class="text-uppercase g-font-weight-700 g-font-size-16 mb-0 g-color-black">E-mail</h3>
+                      <p class="g-font-size-default mb-0">
+                        <a class="g-font-size-default g-color-black" href="mailto:escolaupfabri@gmail.com">escolaupfabri@gmail.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section Content -->
+
+    <!-- Footer -->
+<footer>
+      <div class="row mx-0 px-0">
+        <!-- Google (Map) [custom] -->
+        <div class="g-pos-rel g-height-450 col-sm-12 g-mt-21">
+          <!-- <h1 class="g-color-black text-center text-uppercase">Localização</h1> -->
+          <div id="GMapRoadmap" class="js-g-map embed-responsive embed-responsive-21by9 g-height-400 g-pt-100" data-lat="-19.53078987751263" data-lng="-42.62468875309005" data-zoom="17" data-title="UP+" data-pin="true" data-pin-icon="assets/img/icons/pin/deeporange.png"></div>
+        </div>
+        <!-- End Google (Map) [custom] -->
+      </div>
+      <div class="g-bg-gray-dark-v5 g-color-white g-py-60">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <a class="d-inline-block g-mb-20 g-width-360 g-mt-57" href="#">
+                <img class="img-fluid" src="assets/img/logo/logoup+.png" alt="Logo UP+">
+              </a>
+
+              <ul class="list-inline g-mb-50 pl-4">
+                <li class="list-inline-item g-mr-10">
+                  <a class="u-icon-v2 g-rounded-50x g-color-white g-bg-instagram-custom g-mr-15 g-mb-20" href="https://www.instagram.com/escolaupmais/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item g-mr-10">
+                  <a class="u-icon-v2 g-rounded-50x g-color-white g-bg-whatsapp g-mr-15 g-mb-20" href="https://api.whatsapp.com/send?phone=553133679216" target="_blank">
                     <i class="fa fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item g-mr-10">
-                  <a class="u-icon-v2 g-rounded-50x g-color-facebook g-color-facebook--hover g-mr-15 g-mb-20" href="https://www.facebook.com/escolaupmais/" target="_blank">
+                  <a class="u-icon-v2 g-rounded-50x g-color-white g-bg-facebook g-mr-15 g-mb-20" href="https://www.facebook.com/escolaupmais/" target="_blank">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
@@ -368,628 +803,106 @@
       </div>
     </footer>
     <!-- End Footer -->
-
-    <a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
-     "bottom": 15,
-     "right": 15
-   }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
+    <a data-animation="wobble" data-animation-delay="2000" data-animation-duration="2000"
+    href="https://wa.me/553133679216?text=Tenho%20uma%20dúvida,%20pode%20me%20ajudar?" 
+      style="position:fixed;width:100px;height:100px;bottom:25px;right:12px;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank"
+      class="g-bg-primary"
+      >
+      <img src="assets/img/pablo.png" alt="" class="img-fluid" style="width: 60px; padding-top: 20px">
+     </a>
+    <!--<a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
+           "bottom": 15,
+           "right": 15
+         }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
       <i class="hs-icon hs-icon-arrow-top"></i>
-    </a>
+    </a> -->
   </main>
 
-  <div class="u-outer-spaces-helper"></div>
-
-
   <!-- JS Global Compulsory -->
-  <script src="../assets/vendor/jquery/jquery.min.js"></script>
-  <script src="../assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-  <script src="../assets/vendor/popper.js/popper.min.js"></script>
-  <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
-
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+  <script src="assets/vendor/popper.js/popper.min.js"></script>
+  <script src="assets/vendor/boostrap/bootstrap.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-  <script src="../assets/vendor/slick-carousel/slick/slick.js"></script>
+  <script src="assets/vendor/appear.js"></script>
+  <script src="assets/vendor/fancybox/jquery.fancybox.js"></script>
 
-  <script src="../assets/js/hs.core.js"></script>
-  <script src="../assets/js/components/hs.header.js"></script>
-  <script src="../assets/js/helpers/hs.hamburgers.js"></script>
-  <script src="../assets/js/components/hs.tabs.js"></script>
-  <script src="../assets/js/components/hs.carousel.js"></script>
-  <script src="../assets/js/helpers/hs.height-calc.js"></script>
-  <script src="../assets/js/components/hs.go-to.js"></script>
-  <script src="../assets/js/helpers/hs.focus-state.js"></script>
-
+  <script src="assets/vendor/slick-carousel-slick/slick.js"></script>
+  <script src="assets/vendor/gmaps/gmaps.min.js"></script>
+  <script  src="assets/vendor/custombox/custombox.min.js"></script>
+  <!-- JS Unify -->
+  <script src="assets/js/hs.core.js"></script>
+  <script src="assets/js/components/hs.header.js"></script>
+  <script src="assets/js/helpers/hs.hamburgers.js"></script>
+  <script src="assets/js/components/hs.scroll-nav.js"></script>
+  <script src="assets/js/components/hs.tabs.js"></script>
+  <script src="assets/js/components/hs.popup.js"></script>
+  <script src="assets/js/components/hs.chart-pie.js"></script>
+  <script src="assets/js/components/hs.carousel.js"></script>
+  <script src="assets/js/components/gmap/hs.map.js"></script>
+  <script src="assets/js/components/hs.go-to.js"></script>
+  <script  src="assets/js/components/hs.modal-window.js"></script>
+  <script  src="assets/js/components/hs.onscroll-animation.js"></script>
   <!-- JS Customization -->
-  <script src="../assets/js/custom.js"></script>
-  <script src="../includes/js-portal.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0"></script>
+  <script src="assets/css/custom.css"></script>
+
   <!-- JS Plugins Init. -->
   <script>
-    $(document).on('ready', function () {
-        // initialization of carousel
-        $.HSCore.components.HSCarousel.init('.js-carousel');
+    // initialization of google map
+    function initMap() {
+      $.HSCore.components.HSGMap.init('.js-g-map');
+    }
 
-        // initialization of tabs
-        $.HSCore.components.HSTabs.init('[role="tablist"]');
+    $(document).on('ready', function() {
+      // initialization of carousel
+      $.HSCore.components.HSCarousel.init('.js-carousel');
 
-        // initialization of header's height equal offset
-        $.HSCore.helpers.HSHeightCalc.init();
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#js-header'));
+      $.HSCore.helpers.HSHamburgers.init('.hamburger');
+     // initialization of scroll animation
+     $.HSCore.components.HSOnScrollAnimation.init('[data-animation]');
+      // initialization of tabs
+      $.HSCore.components.HSTabs.init('[role="tablist"]');
 
-        // initialization of go to
-        $.HSCore.components.HSGoTo.init('.js-go-to');
+      // initialization of go to section
+      $.HSCore.components.HSGoTo.init('.js-go-to');
 
-        // Form Focus State
-        $.HSCore.helpers.HSFocusState.init();
-
-        $("#notfound").hide();
-        $("#wrongpassword").hide();
-
-        $(document).on("keyup", "#senha_login", function (e) { 
-            if(e.key == 'Enter'){
-              $("#btnLogin").click();
+      // initialization of popups
+      $.HSCore.components.HSPopup.init('.js-fancybox-media', {
+        helpers: {
+          media: {},
+          overlay: {
+            css: {
+              'background': 'rgba(255, 255, 255, .8)'
             }
-        });
-
-        $(document).on("click", "#btnLogin", function (e) { 
-          e.preventDefault();
-          if(
-              $("#username_login").val() 
-              && $("#senha_login").val()
-          ){
-              let dados = 'id='+$("#username_login").val();
-              dados += '&senha='+$("#senha_login").val();
-
-              $.post("../admin/components/pessoa/action/login_site.php", dados,
-              function(data) {
-                  // debugger
-                  if (data!= null && data != false) {
-                      data = JSON.parse(data);
-                      $("#notfound").hide();
-                      $("#wrongpassword").hide();
-                      // console.log(data);
-                      if(data == 'wrongpassword'){
-                          $("#wrongpassword").show();
-                          $("#notfound").hide();
-                      }else if(data == 'notfound'){
-                          $("#wrongpassword").hide();
-                          $("#notfound").show();
-                      }else if(data.nome){
-                          // $.cookie('up_portal_login', 1);
-                          $.cookie('up_portal_login', JSON.stringify(data));
-                          // fazLogin(data);
-                          location.replace("index.php");
-                      }
-                  }else{
-                      alert("Erro ao fazer login, tente novamente preenchendo os dados corretamente!");
-                  }
-
-              }, "html");
-          }else{
-              alert("Por favor, preencha todos os campos corretamente!")
           }
+        }
+      });
+
+    // initialization of popups
+    $.HSCore.components.HSModalWindow.init('[data-modal-target]');
+    });
+
+    $(window).on('load', function() {
+      // initialization of HSScrollNav
+      $.HSCore.components.HSScrollNav.init($('#js-scroll-nav'), {
+        Duração: 700
       });
     });
 
-      $(window).on('load', function () {
-        // initialization of header
-        $.HSCore.components.HSHeader.init($('#js-header'));
-        $.HSCore.helpers.HSHamburgers.init('.hamburger');
-
-        // initialization of HSMegaMenu component
-        $('.js-mega-menu').HSMegaMenu({
-          event: 'hover',
-          pageContainer: $('.container'),
-          breakpoint: 991
-        });
-      });
-
-      $(window).on('resize', function () {
-        setTimeout(function () {
-          $.HSCore.components.HSTabs.init('[role="tablist"]');
-        }, 200);
-      });
-  </script>
-
-
-
-</body>
-
-</html>
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <!-- Title -->
-  <title>Portal do aluno UP+ Coronel Fabriciano</title>
-
-  <!-- Required Meta Tags Always Come First -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="">
-  <meta name="keywords" content="informática, portal, portal do aluno, escola, inglês, pós, pós graduação, graduação, ead, vale do aço, coronel fabriciano, cel fabriciano, timoteo, ipatinga, cursos, profissionalizante, profissional, profissão, capacitação">
-  <meta name="author" content="Geek Sistemas">
-  <meta name="robots" content="">
-  <meta name="revisit-after" content="1 day">
-  <meta name="language" content="Portuguese">
-  <meta name="generator" content="N/A">
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="../favicon.png">
-
-  <!-- Favicon -->
-  <!-- Google Fonts -->
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
-  <!-- CSS Global Compulsory -->
-  <link rel="stylesheet" href="../assets/vendor/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="../assets/vendor/icon-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../assets/vendor/icon-line-pro/style.css">
-  <link rel="stylesheet" href="../assets/vendor/icon-hs/style.css">
-  <link rel="stylesheet" href="../assets/vendor/animate.css">
-  <link rel="stylesheet" href="../assets/vendor/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="../assets/vendor/hs-megamenu/src/hs.megamenu.css">
-  <link rel="stylesheet" href="../assets/vendor/hamburgers/hamburgers.min.css">
-
-  <!-- CSS Unify -->
-  <link rel="stylesheet" href="../assets/css/unify-core.css">
-  <link rel="stylesheet" href="../assets/css/unify-components.css">
-  <link rel="stylesheet" href="../assets/css/unify-globals.css">
-
-  <!-- CSS Customization -->
-  <link rel="stylesheet" href="../assets/css/custom.css">
-
-  <style>
-    .slick-list, slick-track, .slick-track {
-        height: 100%;
-      }
-  </style>
-</head>
-
-<body>
-  <main>
-
-    <!-- Header -->
-    <header id="js-header" class="u-header u-header--static">
-      <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
-        <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
-          <div class="container">
-            <!-- Responsive Toggle Button -->
-            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
-              <span class="hamburger hamburger--slider">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-              </span>
-              </span>
-            </button>
-            <!-- End Responsive Toggle Button -->
-            <!-- Logo -->
-            <a href="index.php" class="navbar-brand d-flex">
-              <img src="../assets/img/logo/logoup+.png" alt="Logo UP+" class="img-fluid g-width-50">
-            </a>
-            <!-- End Logo -->
-            <!-- Navigation -->
-            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
-              <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
-                <!-- Intro -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                  <a href="logout.php" class="nav-link g-py-7 g-px-0">Sair</a>
-                </li>
-                <!-- End Intro -->
-
-              </ul>
-            </div>
-            <!-- End Navigation -->
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- End Header -->
-<body>
-  <main>
-
-
-  
-    <!-- Login -->
-    <section class="overflow-hidden">
-      <div class="row no-gutters">
-        <div class="container-fluid g-px-30 col-sm-6">
-          <div class="js-carousel g-pos-rel g-mx-minus-15 g-pt-50" data-infinite="true" data-autoplay="true" data-speed="3000" data-slides-show="1" data-responsive='[{
-                  "breakpoint": 1200,
-                  "settings": {
-                    "slidesToShow": 1
-                  }
-                }, {
-                  "breakpoint": 992,
-                  "settings": {
-                    "slidesToShow": 1
-                  }
-                }, {
-                  "breakpoint": 576,
-                  "settings": {
-                    "slidesToShow": 1
-                  }
-                }]'>
-
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/3ec970aa4781eef6f92da32593d93f59.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/96ec2425fbc8b7664b9385d7a34d29d6.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/32e029e555fdb72eaf3116103badcff4.mp4">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/725a60f2e2118d874c8842b48768c7aa.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/d84dabcb0778551c8ca2af67f17acc0b.jpg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/5d0609d1423cf8b19d1e82877ed40b72.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/0c7633f7c519c0bb2778a3675149731f.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/88621b77f36d919c22fc37b3e2a6972a.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/d6b7552b5129447e42d4ce313b32919b.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/bd51d6cc4baeeff3c05fdeedd18eed3d.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/91ee46ccfd37b0c98b2c768ea9ab257a.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/afeb06da9e00e87e21b79fdc294842cd.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/05d00ab3ceabb0423cdac5f1091e0fe1.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                          <div class="js-slide g-px-15">
-                <!-- article -->
-                <article class="g-pos-rel">
-                  <figure class="u-bg-overlay g-bg-white">
-                    <img class="img-fluid w-100" src="../admin/arquivos/banners/7ddc3fe788ee9aa1d8a5ef0cc8231175.jpeg">
-                  </figure>
-                </article>
-                <!-- End article -->
-              </div>
-                      </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="g-pa-50 g-mx-70--xl">
-            <!-- Form -->
-            <form class="g-py-15">
-              <h2 class="h3 g-color-black mb-4">Entrar no portal do aluno</h2>
-              <div class="form-group g-pos-rel mb-0">
-                <div class="mb-4">
-                  <div class="input-group g-brd-primary--focus">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text g-width-45 g-brd-right-none g-brd-gray-light-v4 g-color-primary"><i class="icon-finance-067 u-line-icon-pro g-pos-rel g-top-2"></i></span>
-                    </div>
-                    <input class="form-control g-color-black g-brd-left-none g-bg-white g-brd-gray-light-v4 g-pl-0 g-pr-15 g-py-15" id="username_login" type="text" placeholder="Usuário">
-                  </div>
-                  <div id="notfound">
-                    <small class="form-control-feedback d-block g-bg-red g-color-white g-font-size-12 g-px-14 g-py-3 mt-0">Aluno não encontrado</small>
-                  </div>
-                </div>
-              </div>
-              <div class="form-group g-pos-rel mb-0">
-                <div class="mb-4">
-                  <div class="input-group g-brd-primary--focus">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text g-width-45 g-brd-right-none g-brd-gray-light-v4 g-color-primary"><i class="icon-media-094 u-line-icon-pro g-pos-rel g-top-2"></i></span>
-                    </div>
-                    <input class="form-control g-color-black g-brd-left-none g-bg-white g-brd-gray-light-v4 g-pl-0 g-pr-15 g-py-15" id="senha_login" type="password" placeholder="Senha">
-                  </div>
-                  <div id="wrongpassword">
-                    <small class="form-control-feedback d-block g-bg-red g-color-white g-font-size-12 g-px-14 g-py-3 mt-0">Senha incorreta</small>
-                  </div>
-                </div>
-              </div>
-
-              <!-- <div class="row justify-content-between mb-4">
-                <div class="col align-self-center">
-                  <label class="form-check-inline u-check g-pl-25 mb-0">
-                    <input class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0" type="checkbox">
-                    <div class="u-check-icon-checkbox-v6 g-absolute-centered--y g-left-0">
-                      <i class="fa g-rounded-2" data-check-icon="&#xf00c"></i>
-                    </div>
-                    Keep signed in
-                  </label>
-                </div>
-                <div class="col align-self-center text-right">
-                  <a class="g-color-gray-dark-v4 g-color-primary--hover" href="#">Forgot password?</a>
-                </div>
-              </div> -->
-
-              <div class="g-mb-50">
-                <button class="btn btn-md btn-block u-btn-primary rounded text-uppercase g-py-13" id="btnLogin" type="button">Entrar</button>
-              </div>
-
-
-              <p class="g-font-size-13 text-center mb-0">Não tem conta ou não se lembra? <a class="g-font-weight-600" href="https://api.whatsapp.com/send?phone=553138426784">Entre em contato</a>
-              </p>
-            </form>
-            <!-- End Form -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Login -->
-
-    <!-- Footer -->
-<footer>
-      <div class="g-bg-gray-dark-v2 g-color-white g-py-20">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <a class="d-inline-block g-mb-20 g-width-360 g-mt-57" href="#">
-                <img class="img-fluid" src="../assets/img/logo/logoup+.png" alt="Logo UP+">
-              </a>
-
-              <ul class="list-inline g-mb-50 pl-4">
-                <li class="list-inline-item g-mr-10">
-                  <a class="u-icon-v2 g-rounded-50x g-color-instagram g-color-instagram--hover g-mr-15 g-mb-20" href="https://www.instagram.com/escolaupmais/" target="_blank">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mr-10">
-                  <a class="u-icon-v2 g-rounded-50x g-color-whatsapp g-color-whatsapp--hover g-mr-15 g-mb-20" href="https://api.whatsapp.com/send?phone=553133679216" target="_blank">
-                    <i class="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mr-10">
-                  <a class="u-icon-v2 g-rounded-50x g-color-facebook g-color-facebook--hover g-mr-15 g-mb-20" href="https://www.facebook.com/escolaupmais/" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <!-- <li class="list-inline-item g-mr-10">
-                  <a class="u-icon-v2 g-rounded-50x g-color-youtube g-color-youtube--hover g-brd-white--hover g-mr-15 g-mb-20" href="https://www.youtube.com/channel/UCy8wIXOLVP8wVvWjRMAnsNw" target="_blank">
-                    <i class="fa fa-youtube"></i>
-                  </a>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20 w-100">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
-              <div class="d-lg-flex">
-                <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2023 - Desenvolvido por <a href="http://geeksistemas.com.br" target="_blank"> Geek Sistemas</a></small>
-              </div>
-            </div>
-
-            <div class="col-md-4 align-self-center">
-              <ul class="list-inline text-center text-md-right mb-0">
-                <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Whatsapp">
-                  <a href="https://api.whatsapp.com/send?phone=5531988778860" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
-                    <i class="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
-                  <a href="http://instagram.com/geeksistemas_" target="_blank" class="g-color-white-opacity-0_5 g-color-white--hover">
-                    <i class="fa fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
-
-    <a class="js-go-to u-go-to-v1" href="#" data-type="fixed" data-position='{
-     "bottom": 15,
-     "right": 15
-   }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-      <i class="hs-icon hs-icon-arrow-top"></i>
-    </a>
-  </main>
-
-  <div class="u-outer-spaces-helper"></div>
-
-
-  <!-- JS Global Compulsory -->
-  <script src="../assets/vendor/jquery/jquery.min.js"></script>
-  <script src="../assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-  <script src="../assets/vendor/popper.js/popper.min.js"></script>
-  <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
-
-
-  <!-- JS Implementing Plugins -->
-  <script src="../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-  <script src="../assets/vendor/slick-carousel/slick/slick.js"></script>
-
-  <script src="../assets/js/hs.core.js"></script>
-  <script src="../assets/js/components/hs.header.js"></script>
-  <script src="../assets/js/helpers/hs.hamburgers.js"></script>
-  <script src="../assets/js/components/hs.tabs.js"></script>
-  <script src="../assets/js/components/hs.carousel.js"></script>
-  <script src="../assets/js/helpers/hs.height-calc.js"></script>
-  <script src="../assets/js/components/hs.go-to.js"></script>
-  <script src="../assets/js/helpers/hs.focus-state.js"></script>
-
-  <!-- JS Customization -->
-  <script src="../assets/js/custom.js"></script>
-  <script src="../includes/js-portal.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <!-- JS Plugins Init. -->
-  <script>
-    $(document).on('ready', function () {
-        // initialization of carousel
-        $.HSCore.components.HSCarousel.init('.js-carousel');
-
-        // initialization of tabs
+    $(window).on('resize', function() {
+      setTimeout(function() {
         $.HSCore.components.HSTabs.init('[role="tablist"]');
-
-        // initialization of header's height equal offset
-        $.HSCore.helpers.HSHeightCalc.init();
-
-        // initialization of go to
-        $.HSCore.components.HSGoTo.init('.js-go-to');
-
-        // Form Focus State
-        $.HSCore.helpers.HSFocusState.init();
-
-        $("#notfound").hide();
-        $("#wrongpassword").hide();
-
-        $(document).on("keyup", "#senha_login", function (e) { 
-            if(e.key == 'Enter'){
-              $("#btnLogin").click();
-            }
-        });
-
-        $(document).on("click", "#btnLogin", function (e) { 
-          e.preventDefault();
-          if(
-              $("#username_login").val() 
-              && $("#senha_login").val()
-          ){
-              let dados = 'id='+$("#username_login").val();
-              dados += '&senha='+$("#senha_login").val();
-
-              $.post("../admin/components/pessoa/action/login_site.php", dados,
-              function(data) {
-                  // debugger
-                  if (data!= null && data != false) {
-                      data = JSON.parse(data);
-                      $("#notfound").hide();
-                      $("#wrongpassword").hide();
-                      // console.log(data);
-                      if(data == 'wrongpassword'){
-                          $("#wrongpassword").show();
-                          $("#notfound").hide();
-                      }else if(data == 'notfound'){
-                          $("#wrongpassword").hide();
-                          $("#notfound").show();
-                      }else if(data.nome){
-                          // $.cookie('up_portal_login', 1);
-                          $.cookie('up_portal_login', JSON.stringify(data));
-                          // fazLogin(data);
-                          location.replace("index.php");
-                      }
-                  }else{
-                      alert("Erro ao fazer login, tente novamente preenchendo os dados corretamente!");
-                  }
-
-              }, "html");
-          }else{
-              alert("Por favor, preencha todos os campos corretamente!")
-          }
-      });
+      }, 200);
     });
-
-      $(window).on('load', function () {
-        // initialization of header
-        $.HSCore.components.HSHeader.init($('#js-header'));
-        $.HSCore.helpers.HSHamburgers.init('.hamburger');
-
-        // initialization of HSMegaMenu component
-        $('.js-mega-menu').HSMegaMenu({
-          event: 'hover',
-          pageContainer: $('.container'),
-          breakpoint: 991
-        });
-      });
-
-      $(window).on('resize', function () {
-        setTimeout(function () {
-          $.HSCore.components.HSTabs.init('[role="tablist"]');
-        }, 200);
-      });
   </script>
 
-
-
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7hYmusown63nMXW68_H0oY9QlOwBSHAs&callback=initMap" async></script>
 </body>
 
 </html>
